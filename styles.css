@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: #eee;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.uploader {
+    margin-bottom: 24px;
+}
+
+#viewer {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}

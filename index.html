@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Skins 3D de Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generador de Skins 3D de Minecraft</h1>
+    <div class="uploader">
+        <label for="skinUpload">Sube tu skin (.png):</label>
+        <input type="file" id="skinUpload" accept="image/png">
+        <button id="downloadBtn" disabled>Descargar Skin</button>
+    </div>
+    <div id="viewer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
